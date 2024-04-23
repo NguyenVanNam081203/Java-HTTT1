@@ -2,10 +2,10 @@ package Model;
 
 public class Employee {
     private int id;
-    public String name;
-    public int age;
-    public String department;
-    public String code;
+    private String name;
+    private int age;
+    private String department;
+    private String code;
     private Float salaryrate;
 
     public int getId() {
