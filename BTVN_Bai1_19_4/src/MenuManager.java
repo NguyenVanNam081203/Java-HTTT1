@@ -39,7 +39,6 @@ public class MenuManager {
                         System.out.println("Salary rate: " + employees.get(i).getSalaryrate());
                         System.out.println("---------------------------------");
                     }
-                    System.out.println("Tổng số nhân viên: " + counterEmployee + '\n');
                     break;
                 case 2:
                     System.out.print("Name: ");
@@ -63,7 +62,6 @@ public class MenuManager {
                     int RemoveIdEmployee = id - 1;
                     if (RemoveIdEmployee >= 0 && RemoveIdEmployee < employees.size()) {
                         employees.remove(RemoveIdEmployee);
-                        counterEmployee--;
                         removed = true;
                         System.out.println("Nhân viên có ID " + id + " đã được xóa khỏi danh sách." + '\n');
                     } else {
